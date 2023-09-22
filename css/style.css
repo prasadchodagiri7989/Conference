@@ -1554,4 +1554,17 @@ Responsive
 }
 .timeline-para{
   color: orangered;
+  font-size: 20px;
+}
+
+.pop-up:hover{
+  transform: scale(1.05);
+}
+
+.icon-phn{
+  background-color: orangered;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  height: 40px;
 }
