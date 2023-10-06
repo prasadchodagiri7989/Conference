@@ -44,31 +44,32 @@
  <!-- Navigation Start -->
 
  <header class="header-bar">
-  <div class="container">  
+  <div class="container-fluid">  
     <div class="row">
         <div class="anits-logo col-3 d-flex flex-column justify-content-center">
-          <img src="images/clients/anitslogo.jpeg" class="anits-img"/>
+          <img src="images/clients/anitslogo2.jpg" class="anits-img" style="margin-left: 60px;"/>
         </div>
         <div class="conference-text col-6">
-        <h5 class="mt-2 mb-2 heading-conference">6th International Conference on
+        <h5 class="mt-2 mb-2 heading-conference text-warning text-warning">6th International Conference on
           <br>
           Smart Computing and Informatics
         </h5>
-        <h4 style="color: rgb(255, 222, 34);">ICSCI 2024</h4>
+        <h4>SCI - 2024</h4>
         <h5>April 20-21, 2024</h5>
         <h6>Organized by</h6>
-        <h5>Department of Computer Science and Engineering, <br>Information Technology,<br>Computer Science and Engineering (DS, AI & ML)</h5>
+        <h5 class="text-success">Department of Computer Science and Engineering, <br>Information Technology,<br>Computer Science and Engineering (AI&ML, DS)</h5>
+        <h6 class="text-success">ANITS, Sangivalasa - Visakhapatnam, India</h6>
         </div>
         <div class="springer-logo-con d-flex flex-column col-3">
-          <img src="images/clients/csi-logo.png" class="springer-logo mt-4"/>  
-          <img src="images/clients/IRC_website_logo.webp" class="springer-logo mb-4 mt-4" />
+          <img src="images/clients/IRC_website_logo.webp" class="springer-logo mt-4" />
+          <img src="images/clients/csi-logo.png" class="springer-logo  mb-4 mt-4" style="height: 150;"/>  
           <img src="images/clients/springer.png" class="springer-logo"/>
           <p class="ml-4 " style="font-size: 15px;">(...Awaiting Approval)</p>
         </div>
       </div>
     </div>
   <nav class="navbar navbar-expand-lg main-nav">
-    <div class="container">
+    <div class="container-fluid">
  
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,56 +81,86 @@
       <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link text-primary" href="index.html">Home</a>
           </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link text-primary dropdown-toggle" href="error.html" id="navbarDropdown2" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About &darr;
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="college.html">College</a>
+            <a class="dropdown-item" href="department.html">Department</a>
+          </div>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link text-primary dropdown-toggle" href="error.html" id="navbarDropdown2" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Call for Papers &darr;
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item" href="callforpapers.html">Conference CFP</a>
+            <a class="dropdown-item" href="sessions.html">Special Sessions</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="importantdates.html">Important Dates</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link text-primary dropdown-toggle" href="error.html" id="navbarDropdown1" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Committees &darr;
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <a class="dropdown-item" href="committee.html">Committees</a>
+            <a class="dropdown-item" href="technical.html">Technical</a>
+            <a class="dropdown-item" href="advisory.html">Advisory</a>
+            <a class="dropdown-item" href="organizing.html">Organizing</a>
+            <!-- <a class="dropdown-item" href="error.html">Regstration</a>
+            <a class="dropdown-item" href="error.html">404 Page</a>
+            <a class="dropdown-item" href="error.html">Supports</a> -->
+          </div>
+        </li>
+
 
           <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="error.html" id="navbarDropdown2" role="button"
-             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             About &darr;
-           </a>
-           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-             <a class="dropdown-item" href="college.html">College</a>
-             <a class="dropdown-item" href="department.html">Department</a>
-           </div>
-         </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="error.html" id="navbarDropdown1" role="button"
+            <a class="nav-link text-primary dropdown-toggle" href="error.html" id="navbarDropdown1" role="button"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               For Authors &darr;
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-              <a class="dropdown-item" href="callforpapers.html">Call for Papers</a>
-              <a class="dropdown-item" href="importantdates.html">Important Dates</a>
               <a class="dropdown-item" href="crcinstructions.html">CRC Instructions</a>
               <a class="dropdown-item" href="submission.html">Submission Guidelines</a>
-              <a class="dropdown-item" href="schedule.html">Schedule</a>
               <a class="dropdown-item" href="registration.html">Registration</a>
               <!-- <a class="dropdown-item" href="error.html">Supports</a> -->
             </div>
           </li>
+
           <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="error.html" id="navbarDropdown1" role="button"
-             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Committees &darr;
-           </a>
-           <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-             <a class="dropdown-item" href="committee.html">Committees</a>
-             <a class="dropdown-item" href="technical.html">Technical</a>
-             <a class="dropdown-item" href="advisory.html">Advisory</a>
-             <a class="dropdown-item" href="organizing.html">Organizing</a>
-             <!-- <a class="dropdown-item" href="error.html">Regstration</a>
-             <a class="dropdown-item" href="error.html">404 Page</a>
-             <a class="dropdown-item" href="error.html">Supports</a> -->
-           </div>
-         </li>
+            <a class="nav-link text-primary dropdown-toggle" href="error.html" id="navbarDropdown1" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Program &darr;
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="schedule.html">Program Schedule</a>
+              <a class="dropdown-item" href="presentations.html">Online Presentations</a>
+              <!-- <a class="dropdown-item" href="error.html">Supports</a> -->
+            </div>
+          </li>
+
          <li class="nav-item">
-           <a class="nav-link" href="sessions.html">Spl. Sessions</a>
-         </li>
+          <a class="nav-link text-primary" href="speakers.html">Speakers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-primary" href="importantdates.html">Nearby Attractions</a>
+        </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link text-primary" href="contact.html">Contact Us</a>
           </li>
         </ul>
 
@@ -175,7 +206,7 @@
   <div class="row justify-content-center">
     <div class="col-lg-8">
       <div class="mb-4 mt-5">
-        <table class="table">
+        <table class="table reg-table">
             <thead>
                 <tr>
                 <th scope="col">Category</th>
@@ -185,19 +216,19 @@
             <tbody>
                 <tr>
                 <td>Industry Experts</td>
-                <td>₹10,000.00</td>
+                <td>Rs.10,000.00</td>
                 </tr>
                 <tr>
                 <td>Students &amp; Academicians (from India)</td>
-                <td>₹8,000.00</td>
+                <td>Rs.8,000.00</td>
                 </tr>
                 <tr>
                 <td>Additional Paper (for one additional paper only)</td>
-                <td>₹5,000.00</td>
+                <td>Rs.5,000.00</td>
                 </tr>
                 <tr>
                 <td>Co-Author</td>
-                <td>₹3,000.00</td>
+                <td>Rs.3,000.00</td>
                 </tr>
                 <tr>
                 <td>Foreign Authors</td>
@@ -209,7 +240,7 @@
 
       <div class="mb-4 mt-5">
         <h2> Instructions for Registration Fee Payment</h2>
-        <ol type="A">
+        <ol type="A" class="reg-content">
         <li>
     1. Each paper must be at least registered by one author for getting it published in Springer.</li>
     <li>
@@ -243,7 +274,7 @@
          </ol></ol>
         
          <a href="https://anits.edu.in/#" target="_blank">
-            <button class="btn btn-primary">
+            <button class="btn btn-primary" >
                 Register
             </button>
         </a>

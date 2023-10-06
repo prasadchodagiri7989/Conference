@@ -703,14 +703,14 @@ Features
 .feature-box .divider {
   width: 45px;
   margin-bottom: 20px;
-  background: #4125dd;
+  background: white;
 }
 
 
 
 
 .feature-box.active {
-  background: #4125dd;
+  background: white;
 }
 
 .feature-box.active i {
@@ -1586,7 +1586,6 @@ Responsive
 .mode-box{
   height: 150px;
   width: 300px;
-  background-color: #c1c1c1;
   border-radius: 5px;
   text-align: center;
   margin: 40px;
@@ -1594,8 +1593,8 @@ Responsive
   padding: 30px;
 }
 .feature-box-container{
-  background-color: #c7c7c7;
   margin-bottom: 30px;
+  color: white;
 }
 
 .college-img{
@@ -1604,7 +1603,7 @@ Responsive
 }
 
 .springer-logo{
-  height: 75px;
+  height: 55px;
   width: 190px;
 }
 
@@ -1618,4 +1617,18 @@ Responsive
 .csi-logo{
   height: 200px;
   width: 200px;
+}
+
+/** Registration **/
+
+.reg-table th{
+  font-size: 19px;
+}
+
+.reg-table td{
+  font-size: 17px;
+}
+
+.reg-content li,ol{
+  font-size: 16px;
 }
